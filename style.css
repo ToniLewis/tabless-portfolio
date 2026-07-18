@@ -242,6 +242,16 @@ a:hover{
     background:#f3efff;
 }
 
+.project-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: none;
+}
+
 /* MOBILE */
 
 @media (max-width:768px){
