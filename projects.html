@@ -15,8 +15,8 @@
       <p class="eyebrow">WEB DESIGN • BOT DEV • ENGINEERING • FASHION</p>
       <h1>Ta'Bless Lewis</h1>
       <p class="intro">
-        Portfolio of web design, software, and engineering projects
-        from the Dallas–Fort Worth area.
+        Projects and lab work in digital logic, embedded systems,
+        dashboards, bots, web design, and certification labs.
       </p>
 
       <nav class="nav">
@@ -29,116 +29,251 @@
   </header>
 
   <main>
-    <!-- Featured applications -->
+
+    <!-- Digital Logic Project -->
     <section class="card">
-      <h2>Applications & Concepts</h2>
-      <div class="project-grid">
-
-        <!-- Fluxer Music Bot -->
-        <article class="project">
-          <a href="https://github.com/ToniLewis/melodybot" target="_blank" class="project-link">
-            <h3>🎵 Fluxer Music Bot (Private)</h3>
-            <!-- <img src="images/fluxer-dashboard.png" alt="Fluxer music bot dashboard"> -->
-            <p>
-              Custom music bot inspired by Discord bots, built for Fluxer
-              with modern commands, multi-source playback, queue management,
-              and a user-focused experience.
-            </p>
-            <p>
-              Implementation is kept private for security and future
-              monetization. Screenshots and demo clips can be shared
-              individually when needed.
-            </p>
-            <span class="tag">Node.js</span>
-            <span class="tag">Discord.js</span>
-            <span class="tag">Lavalink</span>
-          </a>
-        </article>
-
-        <!-- Fashion Sandbox -->
-        <article class="project">
-          <h3>👗 Fashion Sandbox Game Concept</h3>
-          <!-- <img src="images/fashion-ui.png" alt="Fashion sandbox UI concept"> -->
-          <p>
-            Concept for a fashion sandbox experience focused on avatar
-            customization, capsule wardrobes, and social runway events,
-            rather than traditional MMORPG grinding.
-          </p>
-          <p>
-            Showcases systems design, UI layout, and player experience
-            thinking. Visual mockups and design notes exist outside this
-            site and can be shared selectively.
-          </p>
-          <span class="tag">Game Design</span>
-          <span class="tag">UI / UX</span>
-        </article>
-
-        <!-- Portfolio Website -->
-        <article class="project">
-          <a href="https://github.com/ToniLewis/tabless-portfolio" target="_blank" class="project-link">
-            <h3>💻 Portfolio & Resume Website</h3>
-            <!-- <img src="images/portfolio.png" alt="Screenshot of this portfolio site"> -->
-            <p>
-              A lavender-themed portfolio and resume hub built with HTML
-              and CSS, deployed via GitHub and Netlify. Designed to grow
-              along with new projects and certifications.
-            </p>
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">Netlify</span>
-          </a>
-        </article>
-
-      </div> <!-- close Applications & Concepts project-grid -->
-    </section> <!-- close Applications & Concepts card -->
-
-    <!-- Engineering Lab -->
-    <section class="card">
-      <h2>Engineering & Simulation Lab</h2>
+      <h2>Digital Logic Project</h2>
       <p>
-        Small computer engineering projects built with digital logic
-        and simulation tools. These projects are designed to evolve
-        over time as new features and ideas are added.
+        A digital logic project focused on small, testable circuits
+        and controller behavior, built in online circuit tools.
       </p>
 
       <div class="project-grid">
-        <!-- 4-bit CPU -->
         <article class="project">
-          <h3>🔧 Custom 4‑Bit CPU Design</h3>
-          <!-- <img src="images/cpu-circuit.png" alt="4-bit CPU circuit diagram"> -->
-          <p>
-            A 4‑bit CPU implemented in a digital logic simulator, exploring
-            instruction sets, control, registers, and basic computer
-            architecture. Built to be modular so additional capabilities
-            can be layered in.
-          </p>
-          <p>
-            Diagrams, circuit screenshots, and links to the simulation
-            environment can be shared when needed without exposing
-            all internal implementation details.
-          </p>
-          <span class="tag">Digital Logic</span>
-          <span class="tag">CPU Design</span>
-        </article>
-
-        <!-- FPGA-style calculator -->
-        <article class="project">
-          <h3>📐 FPGA‑Style Calculator Simulation</h3>
-          <!-- <img src="images/fpga-calculator.png" alt="FPGA-style calculator blocks"> -->
-          <p>
-            Calculator project using an FPGA-style approach, focusing
-            on combinational and sequential logic and a modular structure
-            that can support more operations over time.
-          </p>
-          <p>
-            Simulation screenshots and high-level diagrams demonstrate
-            the design and testing process without publishing full source.
-          </p>
-          <span class="tag">FPGA Concepts</span>
-          <span class="tag">Simulation</span>
+          <a href="https://github.com/ToniLewis/SmartVend-4-controller"
+             target="_blank" class="project-link">
+            <p>
+              Core controller logic for a vending‑style device, designed
+              as a finite state machine with subsystems for inputs,
+              balance tracking, and output control. Supports the wider
+              digital logic and ALU work in the engineering lab.
+            </p>
+            <span class="tag">Digital Logic</span>
+            <span class="tag">Finite State Machine</span>
+          </a>
         </article>
       </div>
     </section>
+
+    <!-- Embedded Microcontroller Simulation -->
+    <section class="card">
+      <h2>Embedded Microcontroller Simulation</h2>
+      <p>
+        An embedded‑style simulation that mimics microcontroller
+        behavior and hardware–software interactions using Python
+        and MCU concepts.
+      </p>
+
+      <div class="project-grid">
+        <article class="project">
+          <a href="https://github.com/ToniLewis/Embedded-Pixel-Pet-"
+             target="_blank" class="project-link">
+            <p>
+              A simulated embedded companion built in Python, featuring
+              GPIO‑style input, state machines, timed events, power
+              management, and a display layer to model microcontroller
+              behavior without physical hardware.
+            </p>
+            <span class="tag">Embedded Concepts</span>
+            <span class="tag">Python</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FPGA-Style CPU/Calculator Simulation -->
+    <section class="card">
+      <h2>FPGA‑Style CPU/Calculator Simulation</h2>
+      <p>
+        An FPGA‑style simulation project that uses modular logic blocks
+        and simple CPU concepts to model calculator operations and
+        hardware‑style computation flows.
+      </p>
+
+      <div class="project-grid">
+        <article class="project">
+          <a href="https://github.com/ToniLewis/Interactive-alu-guide"
+             target="_blank" class="project-link">
+            <p>
+              A guided 4‑bit ALU build in CircuitVerse that walks through
+              arithmetic and logic operations as modular hardware blocks,
+              supporting FPGA‑style CPU and calculator understanding.
+            </p>
+            <span class="tag">FPGA Concepts</span>
+            <span class="tag">4‑Bit ALU</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Hardware–Software Interface Prototype (MCU Sim + Backend Script) -->
+    <section class="card">
+      <h2>Hardware–Software Interface Prototype (MCU Sim + Backend Script)</h2>
+      <p>
+        A prototype that connects simulated microcontroller inputs to
+        backend scripts, demonstrating how hardware signals and
+        software responses work together in one loop.
+      </p>
+
+      <div class="project-grid">
+        <article class="project">
+          <a href="https://github.com/ToniLewis/MCU-FashionFame-game"
+             target="_blank" class="project-link">
+            <p>
+              A hardware–software fashion game prototype using an MCU‑style
+              setup and Python backend scripts to interpret button states,
+              send serial messages, and drive visual and audio feedback
+              for outfit combinations.
+            </p>
+            <span class="tag">Hardware/Software</span>
+            <span class="tag">Interface Design</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Internet of Things Sensor Dashboard (Python) -->
+    <section class="card">
+      <h2>Internet of Things Sensor Dashboard (Python)</h2>
+      <p>
+        An IoT‑style dashboard project that simulates sensor readings
+        and environment metrics using Python, focused on visual feedback
+        and cozy control panels.
+      </p>
+
+      <div class="project-grid">
+        <article class="project">
+          <a href="https://github.com/ToniLewis/IoT-Smart-Closet-Dashboard-"
+             target="_blank" class="project-link">
+            <p>
+              A pastel‑themed Python/Streamlit demo that acts as a
+              “smart closet” panel, simulating sensor data such as
+              temperature, humidity, light, wear count, and capacity
+              for outfits and storage.
+            </p>
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Web & Brand Projects -->
+    <section class="card">
+      <h2>Web & Brand Projects</h2>
+      <p>
+        Web work and brand experiments that combine portfolio design,
+        co‑founder responsibilities, and bot development for social and
+        voice‑chat platforms.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project">
+          <a href="https://github.com/ToniLewis/tabless-portfolio"
+             target="_blank" class="project-link">
+            <h3>Portfolio & Resume Hub</h3>
+            <p>
+              A lavender‑themed web portfolio and resume site built with
+              HTML and CSS, serving as a central place to organize
+              projects, skills, certifications, and long‑term goals.
+            </p>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </a>
+        </article>
+
+        <article class="project">
+          <a href="https://github.com/ToniLewis/momssite"
+             target="_blank" class="project-link">
+            <h3>Glo Brand Sales Page (Webmaster/Co‑Owner)</h3>
+            <p>
+              Web master & co‑owner work for a textured hair brand,
+              including an HTML sales page for a relaunch, focused on
+              layout, product slots, and clear customer messaging.
+            </p>
+            <span class="tag">Web Master</span>
+            <span class="tag">Brand & Layout</span>
+          </a>
+        </article>
+
+        <article class="project">
+          <a href="https://github.com/ToniLewis/melodybot"
+             target="_blank" class="project-link">
+            <h3>Fluxer Voice‑Chat Music Bot</h3>
+            <p>
+              A voice‑chat music bot for Fluxer, a free open‑source
+              alternative to Discord, integrating with music APIs to
+              play, queue, and manage tracks in voice channels.
+            </p>
+            <span class="tag">Bot Development</span>
+            <span class="tag">Audio & APIs</span>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Certification & Learning Labs -->
+    <section class="card">
+      <h2>Certification & Learning Labs</h2>
+      <p>
+        Structured labs tied to my certification tracks in project
+        management, cybersecurity, and Python for data science and AI.
+        Each card reflects the certification focus, not the GitHub
+        project name.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project">
+          <a href="https://github.com/ToniLewis/pm-software-rollout-lab"
+             target="_blank" class="project-link">
+            <h3>Project Management Certification Lab</h3>
+            <p>
+              A browser‑based software rollout lab aligned with my
+              project management certification, using Agile practices,
+              Kanban boards, Gantt timelines, and online PM tools to
+              plan and document an application launch.
+            </p>
+            <span class="tag">Project Management</span>
+            <span class="tag">Agile & Scrum</span>
+          </a>
+        </article>
+
+        <article class="project">
+          <a href="https://github.com/ToniLewis/security-analyst-incident-lab"
+             target="_blank" class="project-link">
+            <h3>Cybersecurity Analyst Certification Lab</h3>
+            <p>
+              A security analyst lab aligned with my cybersecurity
+              training, investigating a simulated web incident in
+              browser‑based environments, analyzing logs and basic
+              vulnerabilities, and writing up professional findings.
+            </p>
+            <span class="tag">Cybersecurity</span>
+            <span class="tag">Incident Analysis</span>
+          </a>
+        </article>
+
+        <article class="project">
+          <a href="https://github.com/ToniLewis/junior-data-analyst-cloud-lab"
+             target="_blank" class="project-link">
+            <h3>Python Data & AI Certification Lab</h3>
+            <p>
+              A cloud notebook lab aligned with my Python and AI
+              coursework, answering a business question with data using
+              Pandas, cleaning, visualization, a simple model, and a
+              clear findings summary.
+            </p>
+            <span class="tag">Python</span>
+            <span class="tag">Data & AI</span>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
   </main>
 
   <footer>
