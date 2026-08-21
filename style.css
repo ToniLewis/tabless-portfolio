@@ -260,6 +260,11 @@ html, body {
   animation: cursor-pulse 1.4s ease-in-out infinite;
 }
 
+#magic-cursor.clicking {
+  animation-play-state: paused;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
 @keyframes cursor-pulse {
   0% {
     transform: translate(-50%, -50%) scale(1);
